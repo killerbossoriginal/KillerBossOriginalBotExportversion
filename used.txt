@@ -1,0 +1,6 @@
+questo è il link d'invito: https://discord.com/api/oauth2/authorize?client_id=802916213579579454&permissions=8&scope=bot
+bot.on('message', (message) =>{
+    if (message.content == "") {
+        message.channel.send("") 
+    }
+});
